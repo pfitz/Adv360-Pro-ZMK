@@ -50,9 +50,9 @@
         layer_NEO_LAER_3 {
             bindings = <
  &kp EQUAL     &kp N1      &kp N2            &kp N3             &kp N4     &kp N5             &trans      &mo 3    &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY   &kp MINUS
-   &kp TAB      &kp Q       &kp W  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp CARET              &none      &none  &kp EXCL      &kp LT        &kp GT      &kp EQUAL    &kp AMPERSAND    &kp BSLH
+   &kp TAB      &kp Q   &kp UNDER  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp CARET              &none      &none  &kp EXCL      &kp LT        &kp GT      &kp EQUAL    &kp AMPERSAND    &kp BSLH
     &trans   &kp BSLH    &kp FSLH    &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp STAR              &none  &kp LCTRL  &kp LALT                                 &kp LGUI        &kp RCTRL       &none  &kp QUESTION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS         &kp MINUS  &kp COLON     &kp AT
- &kp LSHFT   &kp HASH  &kp DOLLAR          &kp PIPE          &kp TILDE      &none              &none      &none    &trans       &none         &none         &trans            &none       &none      &kp PLUS           &kp PERCENT      &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE   &kp SEMI  &kp RSHFT
+ &kp LSHFT   &kp HASH  &kp DOLLAR         &kp PIPE2         &kp TILDE2      &none              &none      &none    &trans       &none         &none         &trans            &none       &none      &kp PLUS           &kp PERCENT      &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE   &kp SEMI  &kp RSHFT
      &mo 2  &kp GRAVE    &kp CAPS          &kp LEFT          &kp RIGHT   &kp BSPC            &kp DEL     &trans    &trans   &kp ENTER     &kp KP_N0         &kp UP         &kp DOWN  &kp KP_DOT      &kp RBKT                 &mo 2
             >;
         };
