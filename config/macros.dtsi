@@ -20,7 +20,7 @@ label = "macro_ae";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <0>;
-bindings = <&kp DOUBLE_QUOTES>, <&kp E>;
+bindings = <&kp DOUBLE_QUOTES>, <&kp A>;
 };
 macro_oe: macro_oe{
 compatible = "zmk,behavior-macro";
