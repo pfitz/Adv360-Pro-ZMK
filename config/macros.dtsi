@@ -8,17 +8,17 @@ macro_ue: macro_ue{
 compatible = "zmk,behavior-macro";
 label = "macro_ue";
 #binding-cells = <0>;
-bindings = <&kp U>, <&kp E>;
+bindings = <&kp DOUBLE_QUOTES>, <&kp U>;
 };
 macro_ae: macro_ae{
 compatible = "zmk,behavior-macro";
 label = "macro_ae";
 #binding-cells = <0>;
-bindings = <&kp A>, <&kp E>;
+bindings = <&kp DOUBLE_QUOTES>, <&kp E>;
 };
 macro_oe: macro_oe{
 compatible = "zmk,behavior-macro";
 label = "macro_oe";
 #binding-cells = <0>;
-bindings = <&kp O>, <&kp E>;
+bindings = <&kp DOUBLE_QUOTES>, <&kp O>;
 };
