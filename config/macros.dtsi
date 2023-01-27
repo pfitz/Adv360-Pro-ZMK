@@ -1,9 +1,3 @@
-macro_ss: macro_ss{
-compatible = "zmk,behavior-macro";
-label = "macro_ss";
-#binding-cells = <0>;
-bindings = <&kp S>, <&kp S>;
-};
 macro_ue: macro_ue{
 compatible = "zmk,behavior-macro";
 label = "macro_ue";
