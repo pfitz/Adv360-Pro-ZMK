@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
-   &kp ESC            &kp N1              &kp N2          &kp N3              &kp N4   &kp N5              &tog 1                                                                       &mo 3  &kp N6               &kp N7           &kp N8               &kp N9             &kp N0  &kp MINUS
-   &kp TAB             &kp X               &kp V           &kp L               &kp C    &kp W               &none                                                                       &none   &kp K                &kp H            &kp G                &kp F              &kp Q  &kp LA(S)
-     &mo 1  &mt LEFT_SHIFT U  &mt LEFT_CONTROL I  &mt LEFT_ALT A  &mt LEFT_COMMAND E  &lt 4 O               &none     &kp LCTRL  &kp LALT                  &kp LEFT_ALT  &kp RCTRL      &none   &kp S  &mt RIGHT_COMMAND N  &mt RIGHT_ALT R  &mt RIGHT_CONTROL T  &mt RIGHT_SHIFT D      &kp Y
- &kp LSHFT         &macro_ue           &macro_oe       &macro_ae               &kp P    &kp Z               &none         &none     &mo 2   &none   &none         &mo 2      &none      &none   &kp B                &kp M        &kp COMMA              &kp DOT              &kp J  &kp RSHFT
-     &mo 2            &kp AT               &none        &kp LEFT           &kp RIGHT                     &kp BSPC  &kp LEFT_GUI     &mo 1                         &mo 1  &kp ENTER  &kp SPACE                       &kp UP         &kp DOWN            &kp MINUS           &kp PLUS      &mo 2
+   &kp ESC              &kp N1          &kp N2              &kp N3            &kp N4   &kp N5              &tog 1                                                                       &mo 3  &kp N6             &kp N7               &kp N8           &kp N9               &kp N0  &kp MINUS
+   &kp TAB               &kp X           &kp V               &kp L             &kp C    &kp W               &none                                                                       &none   &kp K              &kp H                &kp G            &kp F                &kp Q  &kp LA(S)
+     &mo 1  &mt LEFT_CONTROL U  &mt LEFT_ALT I  &mt LEFT_COMMAND A  &mt LEFT_SHIFT E  &lt 4 O               &none     &kp LCTRL  &kp LALT                  &kp LEFT_ALT  &kp RCTRL      &none   &kp S  &mt RIGHT_SHIFT N  &mt RIGHT_COMMAND R  &mt RIGHT_ALT T  &mt RIGHT_CONTROL D      &kp Y
+ &kp LSHFT           &macro_ue       &macro_oe           &macro_ae             &kp P    &kp Z               &none         &none     &mo 2   &none   &none         &mo 2      &none      &none   &kp B              &kp M            &kp COMMA          &kp DOT                &kp J  &kp RSHFT
+     &mo 2              &kp AT           &none            &kp LEFT         &kp RIGHT                     &kp BSPC  &kp LEFT_GUI     &mo 1                         &mo 1  &kp ENTER  &kp SPACE                     &kp UP             &kp DOWN        &kp MINUS             &kp PLUS      &mo 2
             >;
         };
 
