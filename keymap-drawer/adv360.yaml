@@ -68,8 +68,8 @@ layers:
   - RIGHT
   - {t: BSPC, h: VIM}
   - LEFT GUI
-  - NEO_LAER_3
-  - NEO_LAER_3
+  - TMUX
+  - TMUX
   - ENTER
   - {t: SPACE, h: VIM}
   - UP
@@ -466,6 +466,97 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  TMUX:
+  - ''
+  - Win 1
+  - Win 2
+  - Win 3
+  - Win 4
+  - Win 5
+  - ''
+  - ''
+  - Win 6
+  - Win 7
+  - Win 8
+  - Win 9
+  - Win 0
+  - ''
+  - ''
+  - Detach
+  - Split V
+  - Split H
+  - New Win
+  - Tree
+  - ''
+  - ''
+  - SessionX
+  - Rsz ←
+  - Rsz ↓
+  - Rsz ↑
+  - Rsz →
+  - ''
+  - ''
+  - 'Rename
+
+    Win'
+  - 'Cheat
+
+    Sheet'
+  - Sessionzr
+  - 'Copy
+
+    Mode'
+  - Zoom
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - 'Last
+
+    Win'
+  - Pane ←
+  - Pane ↓
+  - Pane ↑
+  - Pane →
+  - 'Last
+
+    Pane'
+  - ''
+  - Reload
+  - Floax
+  - 'New
+
+    Session'
+  - Paste
+  - 'Kill
+
+    Pane'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
 combos:
 - p: [42, 43]
   k: ESC

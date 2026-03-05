@@ -91,8 +91,8 @@ layers:
 
       [VIM]', s: BSPC}
   - {t: LEFT GUI, s: DEL}
-  - NEO_LAER_3
-  - NEO_LAER_3
+  - TMUX
+  - TMUX
   - {t: ENTER, s: ENTER}
   - {t: 'SPACE
 
