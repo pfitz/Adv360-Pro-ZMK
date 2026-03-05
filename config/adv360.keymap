@@ -41,7 +41,7 @@
    &kp TAB               &kp X           &kp V               &kp L             &kp C    &kp W               &none                                                                       &none   &kp K              &kp H                &kp G            &kp F                &kp Q  &kp LA(S)
      &mo 1  &hm LEFT_CONTROL U  &hm LEFT_ALT I  &hm LEFT_COMMAND A  &hm LEFT_SHIFT E  &lt 4 O               &none     &kp LCTRL  &kp LALT                  &kp LEFT_ALT  &kp RCTRL      &none   &kp S  &hm RIGHT_SHIFT N  &hm RIGHT_COMMAND R  &hm RIGHT_ALT T  &hm RIGHT_CONTROL D      &kp Y
  &kp LSHFT           &macro_ue       &macro_oe           &macro_ae             &kp P    &kp Z                         &mo 2      &mo 2                          &kp B              &kp M            &kp COMMA          &kp DOT                &kp J  &kp RSHFT
-     &mo 2              &kp AT           &none            &kp LEFT         &kp RIGHT                    &lt 5 BSPC  &kp LEFT_GUI     &mo 1                         &mo 1  &kp ENTER  &lt 5 SPACE                     &kp UP             &kp DOWN        &kp MINUS             &kp PLUS      &mo 2
+     &mo 2              &kp AT           &none            &kp LEFT         &kp RIGHT                    &lt 5 BSPC  &kp LEFT_GUI     &mo 6                         &mo 6  &kp ENTER  &lt 5 SPACE                     &kp UP             &kp DOWN        &kp MINUS             &kp PLUS      &mo 2
             >;
         };
 
