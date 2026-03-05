@@ -6,16 +6,67 @@ on:
       - "config/*.keymap"
       - "config/*.dtsi"
       - "keymap_drawer.config.yaml"
+      - "bin/draw-combined-keymap.py"
       - ".github/workflows/draw-keymaps.yml"
 
 jobs:
   draw:
-    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    runs-on: ubuntu-latest
     permissions:
       contents: write
-    with:
-      keymap_patterns: "config/adv360.keymap"
-      config_path: "keymap_drawer.config.yaml"
-      output_folder: "keymap-drawer"
-      destination: "both"
-      commit_message: "Update keymap SVG diagrams"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install keymap-drawer
+        run: pipx install keymap-drawer
+
+      - name: Install west
+        run: pipx install west
+
+      - name: Fetch west modules
+        run: |
+          west init -l config
+          west config --local manifest.project-filter " -zmk,-zephyr"
+          west update --fetch-opt=--filter=tree:0
+
+      - name: Parse keymap
+        run: |
+          mkdir -p keymap-drawer
+          keymap -c keymap_drawer.config.yaml parse -z config/adv360.keymap > keymap-drawer/adv360.yaml
+
+      - name: Draw all layers (combined)
+        run: |
+          keymap -c keymap_drawer.config.yaml draw keymap-drawer/adv360.yaml > keymap-drawer/adv360.svg
+
+      - name: Draw individual layers
+        run: |
+          # Read layer names from parsed YAML
+          LAYERS=$(python3 -c "
+          import yaml
+          with open('keymap-drawer/adv360.yaml') as f:
+              data = yaml.safe_load(f)
+          for name in data.get('layers', {}):
+              print(name)
+          ")
+          for layer in $LAYERS; do
+            echo "Drawing layer: $layer"
+            keymap -c keymap_drawer.config.yaml draw keymap-drawer/adv360.yaml --select-layers "$layer" > "keymap-drawer/adv360_${layer}.svg"
+          done
+
+      - name: Draw combined cheat sheet
+        run: |
+          python3 bin/draw-combined-keymap.py keymap-drawer/adv360.yaml keymap-drawer/adv360_combined.yaml
+          keymap -c keymap_drawer.config.yaml draw keymap-drawer/adv360_combined.yaml > keymap-drawer/adv360_cheatsheet.svg
+
+      - name: Commit updated images
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          file_pattern: 'keymap-drawer/*.svg keymap-drawer/*.yaml'
+          commit_message: "Update keymap SVG diagrams"
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: keymap-drawings
+          path: keymap-drawer/*.svg

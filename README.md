@@ -9,6 +9,8 @@
 
 Certain ZMK features (e.g. combos) require knowing the exact key positions in the matrix. They can be found in both image and text format [here](assets/key-positions.md)
 
+Visual keymap diagrams (auto-generated SVGs for every layer) are available [here](KEYMAP.md)
+
 ## Building the Firmware with GitHub Actions
 
 ### Setup

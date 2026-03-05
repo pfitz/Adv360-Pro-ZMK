@@ -1,0 +1,104 @@
+layout: {zmk_keyboard: adv360}
+draw_config: {footer_text: Base=center | Sym=top | Nav=bottom | Vim=left | DE=right, key_h: 72, key_w: 72, n_columns: 1, line_spacing: 1.0, small_pad: 2, shrink_wide_legends: 5}
+layers:
+  All Layers:
+  - {t: ESC, s: '=', h: F1}
+  - {t: '1', s: '1', h: F2}
+  - {t: '2', s: '2', h: F3}
+  - {t: '3', s: '3', h: F4}
+  - {t: '4', s: '4', h: F5}
+  - {t: '5', s: '5', h: F6}
+  - {t: 'NEO_LAER_3
+
+      [toggle]', h: NEO_LAER_3}
+  - {t: mod, s: mod, h: mod}
+  - {t: '6', s: '6', h: F7}
+  - {t: '7', s: KP NUM, h: F8}
+  - {t: '8', s: KP EQUAL, h: F9}
+  - {t: '9', s: KP DIVIDE, h: F10}
+  - {t: '0', s: KP MULTIPLY, h: F11}
+  - {t: '-', s: '-', h: F12}
+  - {t: TAB, s: TAB}
+  - {t: X, s: Q, h: PAGE UP, left: X}
+  - {t: V, s: _, h: BACKSPACE, left: V}
+  - {t: L, s: '[', h: UP, left: Sft+V}
+  - {t: C, s: ']', left: C}
+  - {t: W, s: ^, h: PAGE DOWN}
+  - {s: '|'}
+  - ''
+  - {t: K, s: '!', left: B}
+  - {t: H, s: <, h: KP 7, left: Ctl+D}
+  - {t: G, s: '>', h: KP 8, left: Ctl+U}
+  - {t: F, s: '=', h: KP 9, left: W}
+  - {t: Q, s: '&'}
+  - {t: Alt+S, s: \}
+  - NEO_LAER_3
+  - {t: 'U
+
+      [LCtl]', s: \, h: HOME}
+  - {t: 'I
+
+      [LAlt]', s: /, h: LEFT}
+  - {t: 'A
+
+      [LCmd]', s: '{', h: DOWN}
+  - {t: 'E
+
+      [LSft]', s: '}', h: RIGHT}
+  - {t: 'O
+
+      [DE]', s: '*', h: END}
+  - {s: '~'}
+  - {t: LCTRL, s: LCTRL}
+  - {t: LALT, s: LALT}
+  - {t: LEFT ALT, s: LGUI}
+  - {t: RCTRL, s: RCTRL}
+  - ''
+  - {t: S, s: '?', left: '0', right: H}
+  - {t: 'N
+
+      [RSft]', s: (, h: KP 4, left: H, right: J}
+  - {t: 'R
+
+      [RCmd]', s: ), h: KP 5, left: J, right: K}
+  - {t: 'T
+
+      [RAlt]', s: '-', h: KP 6, left: K, right: L}
+  - {t: 'D
+
+      [RCtl]', s: ':', h: ',', left: L}
+  - {t: Y, s: '@', h: ., left: $}
+  - {t: LSHFT, s: LSHFT}
+  - {t: '&macro_ue', s: '#', left: Y}
+  - {t: '&macro_oe', s: $, h: TAB, left: D}
+  - {t: '&macro_ae', s: '~', left: P}
+  - {t: P, s: '|', h: ENTER, left: U}
+  - {t: Z, s: '`', h: UNDO, left: .}
+  - NEO_LAYER_4
+  - NEO_LAYER_4
+  - {t: B, s: +, h: ':'}
+  - {t: M, s: '%', h: KP 1, left: '&macro_gg'}
+  - {t: ',', s: '"', h: KP 2, left: Sft+G}
+  - {t: ., s: '''', h: KP 3, left: /}
+  - {t: J, s: ;, h: ;, left: N}
+  - {t: RSHFT, s: RSHFT}
+  - {t: NEO_LAYER_4, s: NEO_LAYER_4}
+  - {t: '@', s: '`'}
+  - {s: CAPS}
+  - {t: LEFT, s: LEFT}
+  - {t: RIGHT, s: RIGHT}
+  - {t: 'BSPC
+
+      [VIM]', s: BSPC}
+  - {t: LEFT GUI, s: DEL}
+  - NEO_LAER_3
+  - NEO_LAER_3
+  - {t: ENTER, s: ENTER}
+  - {t: 'SPACE
+
+      [VIM]', s: KP 0, h: KP 0}
+  - {t: UP, s: UP}
+  - {t: DOWN, s: DOWN}
+  - {t: '-', s: KP DOT}
+  - {t: +, s: ']'}
+  - {t: NEO_LAYER_4, s: NEO_LAYER_4}

@@ -1,0 +1,21 @@
+draw_config:
+  n_columns: 1
+  separate_combo_diagrams: true
+  combo_w: 26
+  combo_h: 22
+  key_w: 60
+  key_h: 56
+  split_gap: 30
+  draw_key_sides: false
+  svg_extra_style: |
+    svg.keymap {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+parse_config:
+  zmk_additional_includes: ["behaviors.dtsi"]
+  raw_binding_map:
+    "&studio_unlock": "Studio\nUnlock"
+    "&macro_ue": "ü"
+    "&macro_ae": "ä"
+    "&macro_oe": "ö"
+    "&macro_gg": "gg"
