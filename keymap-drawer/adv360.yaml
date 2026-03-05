@@ -48,9 +48,9 @@ layers:
   - {t: D, h: RIGHT CONTROL}
   - Y
   - LSHFT
-  - ü
-  - ö
-  - ä
+  - '&macro_ue'
+  - '&macro_oe'
+  - '&macro_ae'
   - P
   - Z
   - NEO_LAYER_4
@@ -232,18 +232,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   mod:
-  - 'Studio
-
-    Unlock'
+  - '&studio_unlock'
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
   - ''
-  - {t: 'Studio
-
-      Unlock', type: held}
+  - {t: '&studio_unlock', type: held}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -445,7 +441,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - gg
+  - '&macro_gg'
   - Sft+G
   - /
   - N
