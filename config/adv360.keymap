@@ -100,7 +100,7 @@
  &none  &tmux_cmd N1  &tmux_cmd N2  &tmux_cmd N3  &tmux_cmd N4  &tmux_cmd N5          &none                                                                        &none  &tmux_cmd N6   &tmux_cmd N7   &tmux_cmd N8   &tmux_cmd N9   &tmux_cmd N0  &none
  &none   &tmux_cmd D   &tmux_cmd V   &tmux_cmd H   &tmux_cmd C   &tmux_cmd W          &none                                                                        &none   &tmux_cmd O  &tmux_cmd LS(H)  &tmux_cmd LS(J)  &tmux_cmd LS(K)  &tmux_cmd LS(L)  &none
  &none  &tmux_cmd COMMA  &tmux_cmd A  &tmux_cmd F  &tmux_cmd LBKT  &tmux_cmd Z        &none  &none  &none                  &none  &none                             &none   &tmux_cmd L  &tmux_cmd LEFT  &tmux_cmd DOWN    &tmux_cmd UP  &tmux_cmd RIGHT  &tmux_cmd SEMI
- &none   &tmux_cmd R   &tmux_cmd P  &tmux_cmd LS(N)  &tmux_cmd RBKT  &tmux_cmd X              &none  &none                  &none         &none  &none  &none  &none  &none  &none
+ &none   &tmux_cmd R   &tmux_cmd P  &tmux_cmd LS(N)  &tmux_cmd RBKT  &tmux_cmd X                     &none  &none                         &none  &none  &none  &none  &none  &none
  &none         &none         &none         &none         &none                         &none  &none  &none                  &none  &none  &none         &none         &none         &none         &none  &none
             >;
         };
