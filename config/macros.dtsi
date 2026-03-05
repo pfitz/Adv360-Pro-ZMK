@@ -16,3 +16,9 @@ label = "macro_oe";
 #binding-cells = <0>;
 bindings = <&kp DOUBLE_QUOTES>, <&kp O>;
 };
+macro_gg: macro_gg{
+compatible = "zmk,behavior-macro";
+label = "macro_gg";
+#binding-cells = <0>;
+bindings = <&kp G>, <&kp G>;
+};
