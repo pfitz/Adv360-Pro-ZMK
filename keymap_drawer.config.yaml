@@ -1,6 +1,6 @@
 draw_config:
   n_columns: 1
-  separate_combo_diagrams: true
+  separate_combo_diagrams: false
   combo_w: 26
   combo_h: 22
   key_w: 60
