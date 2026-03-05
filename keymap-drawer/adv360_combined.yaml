@@ -69,15 +69,15 @@ layers:
       [RCtl]', s: ':', h: ',', left: L}
   - {t: Y, s: '@', h: ., left: $}
   - {t: LSHFT, s: LSHFT}
-  - {t: '&macro_ue', s: '#', left: Y}
-  - {t: '&macro_oe', s: $, h: TAB, left: D}
-  - {t: '&macro_ae', s: '~', left: P}
+  - {t: ü, s: '#', left: Y}
+  - {t: ö, s: $, h: TAB, left: D}
+  - {t: ä, s: '~', left: P}
   - {t: P, s: '|', h: ENTER, left: U}
   - {t: Z, s: '`', h: UNDO, left: .}
   - NEO_LAYER_4
   - NEO_LAYER_4
   - {t: B, s: +, h: ':'}
-  - {t: M, s: '%', h: KP 1, left: '&macro_gg'}
+  - {t: M, s: '%', h: KP 1, left: gg}
   - {t: ',', s: '"', h: KP 2, left: Sft+G}
   - {t: ., s: '''', h: KP 3, left: /}
   - {t: J, s: ;, h: ;, left: N}
